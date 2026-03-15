@@ -1,0 +1,8 @@
+[build]
+  publish = "." # Change this to your folder name if index.html is in a subfolder
+  command = "npx tailwindcss -o ./assets/css/main.css"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
